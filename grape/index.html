@@ -1,0 +1,904 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../images/logodark.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.14">
+    
+    
+      
+        <title>Grape - Frizzy's Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.d3202873.min.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ff0a5ce4.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#ab47bd">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="purple" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#elemental-kit-grape" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href=".." title="Frizzy's Wiki" class="md-header-nav__button md-logo" aria-label="Frizzy's Wiki">
+      
+  <img src="../images/logolight.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Frizzy's Wiki
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Grape
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/FrizzyElectronics/ElementalKitDocs/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    FrizzyElectronics
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Frizzy's Wiki" class="md-nav__button md-logo" aria-label="Frizzy's Wiki">
+      
+  <img src="../images/logolight.png" alt="logo">
+
+    </a>
+    Frizzy's Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/FrizzyElectronics/ElementalKitDocs/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    FrizzyElectronics
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Frizzy's Wiki" class="md-nav__link">
+      Frizzy's Wiki
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Plataforma
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Plataforma" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        Plataforma
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../arduino/" title="Arduino" class="md-nav__link">
+      Arduino
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../raspberry/" title="Raspberry Pi" class="md-nav__link">
+      Raspberry Pi
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Frizzy Elemental Kit
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Frizzy Elemental Kit" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Frizzy Elemental Kit
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../intro/" title="Introducción" class="md-nav__link">
+      Introducción
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Grape
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="Grape" class="md-nav__link md-nav__link--active">
+      Grape
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#caracteristicas" class="md-nav__link">
+    Características
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#primeros-pasos" class="md-nav__link">
+    ##Primeros pasos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#drivers" class="md-nav__link">
+    Drivers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recursos" class="md-nav__link">
+    ##Recursos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#licencia" class="md-nav__link">
+    Licencia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#soporte-tecnico" class="md-nav__link">
+    Soporte Técnico
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
+    
+    <label class="md-nav__link" for="nav-3-3">
+      Sensores
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Sensores" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-3">
+        <span class="md-nav__icon md-icon"></span>
+        Sensores
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../boton/" title="Boton" class="md-nav__link">
+      Boton
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ldr/" title="Sensor de luz" class="md-nav__link">
+      Sensor de luz
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../pot/" title="Potenciómetro" class="md-nav__link">
+      Potenciómetro
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sharp/" title="Sensor de distancia" class="md-nav__link">
+      Sensor de distancia
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../linefollower/" title="Sensor siguelineas" class="md-nav__link">
+      Sensor siguelineas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../keypad/" title="Keypad" class="md-nav__link">
+      Keypad
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4">
+    
+    <label class="md-nav__link" for="nav-3-4">
+      Actuadores
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Actuadores" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-4">
+        <span class="md-nav__icon md-icon"></span>
+        Actuadores
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../motor/" title="Motor Controller" class="md-nav__link">
+      Motor Controller
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rgb/" title="Led RGB" class="md-nav__link">
+      Led RGB
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../buzzer/" title="Buzzer" class="md-nav__link">
+      Buzzer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../led/" title="Led" class="md-nav__link">
+      Led
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../servo/" title="Servo" class="md-nav__link">
+      Servo
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-5" type="checkbox" id="nav-3-5">
+    
+    <label class="md-nav__link" for="nav-3-5">
+      Display
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Display" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-5">
+        <span class="md-nav__icon md-icon"></span>
+        Display
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../oled/" title="Pantalla Oled" class="md-nav__link">
+      Pantalla Oled
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-6" type="checkbox" id="nav-3-6">
+    
+    <label class="md-nav__link" for="nav-3-6">
+      Comunicación
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Comunicación" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-6">
+        <span class="md-nav__icon md-icon"></span>
+        Comunicación
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../bluetooth/" title="Módulo bluetooth" class="md-nav__link">
+      Módulo bluetooth
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../otros/" title="Otros" class="md-nav__link">
+      Otros
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#caracteristicas" class="md-nav__link">
+    Características
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#primeros-pasos" class="md-nav__link">
+    ##Primeros pasos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#drivers" class="md-nav__link">
+    Drivers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recursos" class="md-nav__link">
+    ##Recursos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#licencia" class="md-nav__link">
+    Licencia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#soporte-tecnico" class="md-nav__link">
+    Soporte Técnico
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/FrizzyElectronics/ElementalKitDocs/edit/master/docs/grape.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  
+                
+                
+                <h1 id="elemental-kit-grape">Elemental Kit - Grape</h1>
+<p><a href="www.frizzy.es/grape"><img alt="Texto alternativo" src="../images/grape1.jpg" title="Placa Grape" /></a></p>
+<p>La Frizzy Electronics <strong>Grape</strong> es una placa de desarrollo basada en el microcontrolador ATMEGA329P-AU de 8bits de la familia AVR. La placa Grape posee 14 pines digitales configurables como entrada o salida de los cuales 6 pueden ser usados como salidas PWM y 8 entradas analogicas. Como principal caracteristica de la Grape nos encontramos con que posee pines de conexión rapida los cuales ya incorporan alimentación y señal, evitando así el uso de las molestas protoboard. Tienes todo un ecosistema de módulos <a href="https://frizzy.es/elemental-kit/">Atom</a> que puedes conectar. La placa es totalmente compatible con el Arduino UNO tanto en el uso de sus shields como en la posición de los agujeros de montaje.</p>
+<p>Incorporta un conector JST de 4 pines para conectar dispositivos I2C del ecosistema Atom como una pantalla Oled o una matriz led. Es capaz de soportar de continuo 2A de corriente por lo que no tendras ningún problema a la hora de hacer robots que usen varios servos, por ejemplo.</p>
+<h2 id="caracteristicas">Características</h2>
+<table>
+<thead>
+<tr>
+<th>Característica</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Microcontrolador</td>
+<td>Atmega328P-AU</td>
+</tr>
+<tr>
+<td>Memoria Flash</td>
+<td>32KB</td>
+</tr>
+<tr>
+<td>Memoria SRAM</td>
+<td>1KB</td>
+</tr>
+<tr>
+<td>Digital I/O</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Entradas Analogicas</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Salidas PWM</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Tensión de alimentacion</td>
+<td>7-23 V DC</td>
+</tr>
+<tr>
+<td>Corriente máxima</td>
+<td>800 mA (3.3A) 2A (5V)</td>
+</tr>
+<tr>
+<td>Conversor USB-UART</td>
+<td>FT231XS</td>
+</tr>
+</tbody>
+</table>
+<h2 id="primeros-pasos">##Primeros pasos</h2>
+<p>Para comenzar a usar nuestra placa Grape, lo primero que necesitaremos será descargar el IDE de Arduino. Para descargarlo, iremos a la web oficial de Arduino <a href="www.arduino.cc">www.arduino.cc</a> y en la pestaña Software&gt;Dowloads nos descargaremos el IDE para nuestra versión de sistema operativo. El IDE es totalmente gratuito, pero desde aquí hacemos un llamamiendo a las donaciones para contribuir con el proyecto Arduino. Si alguno está interesado en donar al descargarlo, puede hacerlo seleccionando la cantidad a donar.</p>
+<p><a href="www.frizzy.es/grape"><img alt="Texto alternativo" src="../images/descargando.gif" title="Placa Grape" /></a></p>
+<p>También puedes comprar alguna de sus <a href="https://store.arduino.cc/">placas</a> para apoyarles.</p>
+<p>Una vez instalado en tu ordenador, abriremos la aplicación. Vamos a crear el primer programa conocido como "hola mundo". En el mundo de Arduino esto se conoce como Blynk, ya que la forma que tendrá la placa de decirnos "hola" será haciendo parpadear un led. Podemos escribir nosotros mismos el codigo o podemos abrir un ejemplo ya escrito como te enseñamos a continuación.</p>
+<p><a href="www.frizzy.es/grape"><img alt="Texto alternativo" src="../images/ejemplo-blynk.gif" title="Placa Grape" /></a></p>
+<p>En este código, lo que haremos será hacer parpadear el led conectado al pin 13, por lo que no necesitamos ningún módulo Atom externo ni hardware adicional, viene ya con nuestra placa Grape, por lo que siempre que nuestro pin digital 13 esté en modo HIGH, veremos encendido este led. Este led le podemos encontrar cerca del pin 13 con la serigrafía "D13" y cuando lo encendamos se iluminará de color azul.</p>
+<p>Es ahora cuando conectaremos nuestra Grape al ordenador mediante el cable micro-USB. Para subir el programa a la placa, debemos selecionar el modelo Arduino Nano en Herramientas &gt; Placa &gt; Arduino Nano, y el puerto COM en el que se encuentra nuestra placa mediante Herramientas &gt; Puerto.</p>
+<p><a href="www.frizzy.es/grape"><img alt="Texto alternativo" src="../images/subiendo.gif" title="Placa Grape" /></a></p>
+<p>Si quieres copiar el código aquí lo tienes:</p>
+<div class="highlight"><pre><span></span><code><span class="kr">const</span> <span class="kr">int</span> <span class="n">ledPin</span> <span class="o">=</span>  <span class="mi">13</span><span class="p">;</span>     <span class="c1">// Pin del Led</span>
+
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// Inicializamos el led como salida</span>
+    <span class="nf">pinMode</span><span class="p">(</span><span class="n">ledPin</span><span class="p">,</span> <span class="kr">OUTPUT</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">(){</span>
+
+    <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">ledPin</span><span class="p">,</span> <span class="kr">HIGH</span><span class="p">);</span> <span class="c1">//Encendemos el led</span>
+    <span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span> <span class="c1">//Esperamos 1 segundo</span>
+    <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">ledPin</span><span class="p">,</span> <span class="kr">LOW</span><span class="p">);</span>  <span class="c1">//Apagamos el led</span>
+    <span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span> <span class="c1">//Esperamos 1 segundo</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>Y si todo ha ido bien...¡deberías tener el led parpadeando!</p>
+<h2 id="drivers">Drivers</h2>
+<p>Nuestra placa Grape incorpora el conversor USB-UART <a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf">FT231XS</a> el cual es reconocido por la mayoría de sistemas operativos de manera nativa, por lo que no deberías tener ningún problema a la hora de que tu placa sea detectada por tu ordenador sin nedesidad de drivers, uses el sistema operativo que uses (Windows, Mac OS X o LinuX)</p>
+<p>Si por algún motivo tienes problemas y tu ordenador no detecta tu placa, te enseñamos a instalar los drivers.</p>
+<p>Debes descargarte los drivers de la <a href="http://www.ftdichip.com/Drivers/VCP.htm">web del fabricante</a>. Una vez ahí descargate la versión que corresponda para tu sistema operativo e instalalos en tu máquina.</p>
+<p><a href="www.frizzy.es/grape"><img alt="Texto alternativo" src="../images/drivers.gif" title="Placa Grape" /></a></p>
+<h2 id="recursos">##Recursos</h2>
+<ul>
+<li><a href="http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf" title="File: Datasheet.pdf">Datasheet Atmega</a></li>
+<li><a href="https://raw.githubusercontent.com/FrizzyElectronics/AtomModulesFritzingParts/master/FritzingParts/Grape.fzpz" title="File:Grape.fzpz">Fritzing</a></li>
+<li><a href="https://github.com/FrizzyElectronics/Grape">Archivos</a></li>
+<li><a href="https://raw.githubusercontent.com/FrizzyElectronics/Grape/master/Hardware/KiCAD/pdf/Grape.pdf" title="File:Grape.pdf">Esquema en PDF</a></li>
+<li><a href="http://www.ftdichip.com/Drivers/VCP.htm">Drivers USB</a></li>
+</ul>
+<h2 id="licencia">Licencia</h2>
+<hr />
+<p>Copyright &copy; 2018-2017 Frizzy Electronics. (<a href="https://www.frizzy.es">https://www.frizzy.es</a>). Todo el texto y las fotografías bajo licencia <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"> </a></p>
+<h2 id="soporte-tecnico">Soporte Técnico</h2>
+<hr />
+<p>Por favor, comunicanos cualquier incidencia para poder mejorar juntos. Escribenos a <a href="frizzy.info@gmail.com">frizzy.info@gmail.com</a>.</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../intro/" title="Introducción" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Introducción
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../boton/" title="Boton" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Boton
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/vendor.2d1db4bd.min.js"></script>
+      <script src="../assets/javascripts/bundle.6627ddf3.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: [],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.5eca75d3.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
